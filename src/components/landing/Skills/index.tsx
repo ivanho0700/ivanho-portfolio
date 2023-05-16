@@ -1,13 +1,10 @@
 import React from "react"
 
 import Skill from "./Skill"
-import figmaIcon from "assets/icons/figma"
-import reactIcon from "assets/icons/react-icon"
-import nodeIcon from "assets/icons/node"
-import sassIcon from "assets/icons/sass"
-import pythonIcon from "assets/icons/python"
-import uxIcon from "assets/icons/ux"
 import "./style.scss"
+
+import { FcAcceptDatabase } from "react-icons/fc";
+import { SiGithub, SiReact, SiNodedotjs, SiAzuredevops, SiJirasoftware, SiMicrosoftacademic } from "react-icons/si";
 
 function Skills() {
 	return (
@@ -19,33 +16,38 @@ function Skills() {
 				<div className="skills__lists">
 					<Skill
 						name="Front-end"
-						detail="React, Typescript, Redux, Context, Redux thunk, Vue, Vuex, Gatsby"
-						icon={reactIcon}
+						detail="ReactJS, AngularJS, VueJS, Typescript, Bootstrap, jQuery"
+						icon={SiReact}
 					/>
 					<Skill
-						name="Back-end + DevOps"
-						detail="Node, Express, SQL, NoSQL, Docker, Google Cloud, Kubernetes"
-						icon={nodeIcon}
+						name="Back-end"
+						detail="Node.js, Express.js, Django, Flask, PHP, Rails"
+						icon={SiNodedotjs}
 					/>
 					<Skill
-						name="Style/Library"
-						detail="CSS, SASS, LESS, Material UI, Vuetify, Bootstrap"
-						icon={sassIcon}
+						name="Database Management Systems"
+						detail="MongoDB, MySQL, PostgreSQL"
+						icon={FcAcceptDatabase}
 					/>
 					<Skill
-						name="UX/UI"
-						detail="Research, user journey, wireframe, prototype, interaction, test"
-						icon={uxIcon}
+						name="Version Control"
+						detail="Git, Github"
+						icon={SiGithub}
 					/>
 					<Skill
-						name="Additional"
-						detail="Python, PHP,Socket.io, Git, WordPress"
-						icon={pythonIcon}
+						name="Web Hosting Platforms"
+						detail="AWS, Firebase"
+						icon={SiAzuredevops}
 					/>
 					<Skill
-						name="Tools"
-						detail="Figma, Draw.io, Adobe suite, Jira, Intercom, Postman, Lens"
-						icon={figmaIcon}
+						name="Project Management"
+						detail="Scrum, Kanban, Agile, Jira"
+						icon={SiJirasoftware}
+					/>
+					<Skill
+						name="Soft Skills"
+						detail="Creativity, Strategic planning, Analytical skills, Problem-solving skills, Time management skills"
+						icon={SiMicrosoftacademic}
 					/>
 				</div>
 			</div>

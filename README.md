@@ -1,5 +1,5 @@
-# My Full stack developer's portfolio [Live link](https://bikashxsharma.netlify.com/)
-- Designed & Developed by [Bikash Sharma](https://github.com/bikashxsharma)
+# My Full stack developer's portfolio [Live link](https://ivanho0700-portfolio.web.app/)
+- Designed & Developed by [Ivan Ho](https://github.com/ivanho0700@gmail.com)
 
 ### Sections
 - Home banner(Name, title, and a summary about me)

@@ -4,7 +4,7 @@ export const RecentProjectData = [
     detail:
       'A react app to make CV with dynamic content, branding and exported to PDF.',
     image: process.env.PUBLIC_URL + '/images/cv_maker.png',
-    buttons: [{ label: 'Demo', link: 'https://bw-cv-maker.netlify.app/left' }, { label: 'Code', link: 'https://github.com/bikashxsharma/cv-maker-react' },],
+    buttons: [{ label: 'Demo', link: 'https://bw-cv-maker.netlify.app/left' }, { label: 'Code', link: 'https://github.com/ivanho0700/cv-maker-react' },],
     status: 'Private Repo',
   },
   {
@@ -12,36 +12,36 @@ export const RecentProjectData = [
     detail:
       'WordPress website for hotel. Designed and Developed by me.',
     image: process.env.PUBLIC_URL + '/images/hotel_triplehill.png',
-    buttons: [{ label: 'Demo', link: 'https://hoteltriplehill.com' }, { label: 'Code', link: 'https://github.com/bikashxsharma/hotel-triple-hill' },],
+    buttons: [{ label: 'Demo', link: 'https://hoteltriplehill.com' }, { label: 'Code', link: 'https://github.com/ivanho0700/hotel-triple-hill' },],
     status: 'Private Repo',
   },
   {
     title: 'My portfolio',
     detail:
-      'React, Typescript, Material UI, SCSS, Flex, Figma',
+      'React, Typescript, Material UI, SCSS, Flex',
     image: process.env.PUBLIC_URL + '/images/portfolio_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://bikashxsharma.netlify.com/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/bikash-portfolio' }],
+    buttons: [{ label: 'Demo', link: 'https://ivanho0700-portfolio.web.app/' }, { label: 'Code', link: 'https://github.com/ivanho0700/ivanho-portfolio' }],
   },
   {
     title: 'Country Info',
     detail:
       'React, Typescript, Redux, Thunk, Material UI, SCSS',
     image: process.env.PUBLIC_URL + '/images/countryApi_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://bw-country-api.netlify.app/' }, { label: 'Code', link: 'https://github.com/thebikashweb/country-api' }],
+    buttons: [{ label: 'Demo', link: 'https://ivanho0700-country-api.web.app/' }, { label: 'Code', link: 'https://github.com/ivanho0700/country-api' }],
   },
   {
-    title: 'Lets do it',
+    title: 'MUI Dash',
     detail:
-      'Day todo app using Vue, Vue router, Vuex, css,',
+      'Practice my skills in Material UI with Reactjs.',
     image: process.env.PUBLIC_URL + '/images/letsdoit_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://vueletsdoit.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/vue-lets-do-it' }],
+    buttons: [{ label: 'Demo', link: 'https://ivanho0700-mui-practice.web.app/' }, { label: 'Code', link: 'https://github.com/ivanho0700/mui-practice' }],
   },
   // {
   //   title: 'Git Trending',
   //   detail:
   //     'Git weekly trending app made using React, CSS, Flex',
   //   image: process.env.PUBLIC_URL + '/images/git_thumb.png',
-  //   buttons: [{ label: 'Demo', link: 'https://git-weekly-trending.netlify.app/' }, { label: 'Code', link: "https://github.com/bikashxsharma/weekly-trending" }],
+  //   buttons: [{ label: 'Demo', link: 'https://git-weekly-trending.netlify.app/' }, { label: 'Code', link: "https://github.com/ivanho0700/weekly-trending" }],
   // },
 
 ]

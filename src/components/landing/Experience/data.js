@@ -1,36 +1,26 @@
 export const ExperienceData = [
   {
-    title: 'Lead Product Developer',
+    title: 'Full Stack Developer',
     detail:
-      'WordPress hosting for agencies and freelancers, that makes growing your business easier than ever before.',
-    image: process.env.PUBLIC_URL + '/images/wonsta_logo.png',
-    progress: 'On going',
-    time: '10.2020 -',
-  },
-  {
-    title: 'Co-founder',
-    detail:
-      'Roles: Web Designer/ Digital Marketer/Co-founder',
-    image: process.env.PUBLIC_URL + '/images/velkko_logo.png',
-    progress: 'Freelance Agency',
-    time: '10.2016 - 08.2020',
-  },
-  {
-    title: 'UX/UI/Front-end',
-    detail:
-      'A knowledge-sharing platform between experts and learners',
-    image: process.env.PUBLIC_URL + '/images/kaamyabi_logo.png',
+      'Assisted with requirements analysis, high level design, low level design, complex design and complex code development for 20֡ applications.',
+    image: process.env.PUBLIC_URL + '/images/oracle.png',
     progress: 'In development..',
-    time: '02.2020 - 08.2020',
+    time: '02/2022 - 04/2023',
   },
   {
-    title: 'Product Designer',
+    title: 'Full Stack Developer',
     detail:
-      'Doctual was a platform for lawyers and startups',
-    image: process.env.PUBLIC_URL + '/images/doctual_logo.png',
-    progress: 'Sold out',
-    time: '01.2017 - 11.2018',
+      'Increased company revenue by 30% within 2 months after developing and implementing business logic for over 20 features.',
+    image: process.env.PUBLIC_URL + '/images/Singtel.png',
+    progress: 'Freelance Agency',
+    time: '02.2020 - 01.2022',
   },
-
-
+  {
+    title: 'Junior Developer',
+    detail:
+      'Improved user interfaces by updating menus to make them more intuitive, attracting 5% more customers than the previous quarter.',
+    image: process.env.PUBLIC_URL + '/images/Trax.png',
+    progress: 'In development.',
+    time: '02.2019 - 01.2020',
+  },
 ]

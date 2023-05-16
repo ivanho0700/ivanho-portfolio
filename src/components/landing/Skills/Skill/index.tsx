@@ -19,7 +19,7 @@ const Skill: React.FC<SkillPropType> = ({
 			<div className='skill-item__logo'>
 				<div className='logo__circle'>
 					<div className='logo__icon'>
-						<Icon />
+						<Icon size={50}/>
 					</div>
 				</div>
 			</div>
